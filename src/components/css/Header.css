@@ -1,0 +1,47 @@
+.header{
+    display:flex;
+    flex-flow: row wrap;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+   /* padding-top: 150px;*/
+   /* border: 1px solid black;*/
+
+    
+}
+
+.headline{
+    margin-left: 8%;
+    flex:34%;
+    color: white;
+
+}
+
+.headline h1{
+    font-weight: 900;
+    font-size:55px ;
+}
+
+#btnSaiba{
+    padding: 10px;
+    color: white;
+    background: #6b8a74;
+    border: #6b8a74 ;
+    border-radius: 5px;
+}
+
+
+
+.imgHeader{
+    /*max-width: 100%;*/
+    margin-right: 8%;
+    flex:50%;
+   /* border:1px solid deeppink;*/
+    text-align: center;
+    
+
+}
+
+.imgT{
+    height: 400px;
+}

@@ -1,0 +1,109 @@
+.section{
+    margin-top: 80px;
+    height: 500px;
+    width: 84%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.calculo{
+    flex: 42%;
+   /* border: 1px solid pink;*/
+    height: 400px;
+    text-align: start;
+    padding-top: 40px;
+    background:  #6b8a74;
+    box-shadow: 5px 5px 15px;
+    border-radius: 10px;
+    padding-left: 55px;
+}
+
+.titulo{
+    color: rgb(6, 49, 15);
+}
+
+.input-wrapper {
+    margin-bottom: 10px;
+  }
+  
+  .input-wrapper label {
+    color: black;
+  }
+  
+  .input-wrapper input {
+    background-color:  rgb(188, 226, 201);
+    color: rgb(2, 41, 2);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .botaoCal{
+    background-color:  rgb(188, 226, 201);
+    border: #6b8a74 ;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .botaoCal:hover{
+    background-color: #3A6451;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button-wrapper {
+    margin-top: 10px;
+  }
+  
+  .button-wrapper button {
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 30px;
+    color: rgb(6, 49, 15);
+    font-weight: 600;
+    background: #E6F1A0 ;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+
+
+
+.imagenHeader{
+    flex: 42%;
+   /* border: 1px solid green;*/
+    text-align: center;
+}
+
+.imagenLam{
+    height: 350px;
+    transform: translate(0px);
+    animation: float 6s ease-out infinite;
+    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.7));
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    100%{
+        transform: translate(0px);
+    }
+}
